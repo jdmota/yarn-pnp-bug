@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "yarn-pnp-bug",
+  "scripts": {
+    "run_index": "yarn node index"
+  },
+  "dependencies": {
+    "@nodelib/fs.stat": "^2.0.3",
+    "fast-glob": "^3.1.0"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}
